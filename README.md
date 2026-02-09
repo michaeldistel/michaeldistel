@@ -2,20 +2,26 @@
 
 I like the messy middle: prototype -> V1 -> customers.
 
-I build tools and workflow software where reliability matters. Operator habits, builder mindset.
+Builder mindset. Operator habits. Ship the thing, then make it work.
+
+## Featured
+
+- ControlForge (VS Code extension for Structured Text / IEC 61131-3): https://controlforge.dev
+- Ordis (schema-first extraction with LLM pipelines): https://github.com/ordis-dev/ordis
+- Notes and experiments: https://michaeldistel.com
 
 ## Now
 
-- Shipping side projects (devtools, automation, and small workflow improvements)
-- Prototyping fast with AI and agent workflows, then hardening what matters
+- Building devtools and workflow software where reliability matters
+- Prototyping with AI/agent workflows, then hardening what matters
+- Exploring co-founder and founding operator roles
 
-## Projects
+## Orgs
 
-- ControlForge: https://controlforge.dev
-- Kicking Miles (slow travel experiments): https://kickingmiles.com
-- Notes: https://michaeldistel.com
+- ControlForge Systems: https://github.com/ControlForge-Systems
+- Ordis Dev: https://github.com/ordis-dev
 
 ## Contact
 
-- Email: michael@distel.me
-- LinkedIn: https://www.linkedin.com/in/michaeldistel/
+- michael@distel.me
+- https://www.linkedin.com/in/michaeldistel/
