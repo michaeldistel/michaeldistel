@@ -14,7 +14,6 @@ Builder mindset. Operator habits. Ship the thing, then make it work.
 
 - Building devtools and workflow software where reliability matters
 - Prototyping with AI/agent workflows, then hardening what matters
-- Exploring co-founder and founding operator roles
 
 ## Orgs
 
