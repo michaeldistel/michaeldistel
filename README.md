@@ -2,8 +2,6 @@
 
 I like the messy middle: prototype -> V1 -> customers.
 
-I build devtools and workflow software where reliability matters.
-
 ## Featured
 
 - ControlForge (VS Code extension for Structured Text / IEC 61131-3): https://controlforge.dev
