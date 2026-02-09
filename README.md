@@ -2,7 +2,7 @@
 
 I like the messy middle: prototype -> V1 -> customers.
 
-Builder mindset. Operator habits. Ship the thing, then make it work.
+I build devtools and workflow software where reliability matters.
 
 ## Featured
 
@@ -12,7 +12,6 @@ Builder mindset. Operator habits. Ship the thing, then make it work.
 
 ## Now
 
-- Building devtools and workflow software where reliability matters
 - Prototyping with AI/agent workflows, then hardening what matters
 
 ## Orgs
