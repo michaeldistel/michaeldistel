@@ -1,7 +1,5 @@
 # Michael Distel
 
-I like the messy middle: prototype -> V1 -> customers.
-
 ## Featured
 
 - ControlForge (VS Code extension for Structured Text / IEC 61131-3): https://controlforge.dev
