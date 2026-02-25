@@ -8,12 +8,8 @@
 
 ## Interesting Repos
 
-- Runtimes: interesting-repos/runtimes.md
-- Databases: interesting-repos/databases.md
-- Messaging: interesting-repos/messaging.md
-- Infra: interesting-repos/infra.md
-- Web: interesting-repos/web.md
-- Observability: interesting-repos/observability.md
+- AI: interesting-repos/ai.md
+- Industrial Automation: interesting-repos/industrial-automation.md
 
 ## Now
 
