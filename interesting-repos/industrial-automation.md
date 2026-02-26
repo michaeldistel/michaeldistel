@@ -2,6 +2,8 @@
 
 Repos and projects focused on PLCs, SCADA, and control systems.
 
+Labels: [OSS] open-source licence detected, [No licence] no licence detected, [Archived] archived, [Maintained?] no push in ~18 months.
+
 ## VS Code extensions
 
 - [ControlForge Structured Text](https://github.com/ControlForge-Systems/controlforge-structured-text) — VS Code extension for IEC 61131-3 Structured Text, with LSP, diagnostics, formatting, and rich editor tooling for PLC developers. [OSS]
