@@ -8,8 +8,9 @@
 
 ## Interesting Repos
 
-- AI: interesting-repos/ai.md
-- Industrial Automation: interesting-repos/industrial-automation.md
+- Active use: interesting-repos/active.md
+- Industrial automation: interesting-repos/industrial-automation.md
+- Watchlist: interesting-repos/watchlist.md
 
 ## Now
 
