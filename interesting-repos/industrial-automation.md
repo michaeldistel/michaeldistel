@@ -31,6 +31,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 - [x-tools](https://github.com/x-tools-author/x-tools) — LGPL Qt toolbox for serial/HID/BLE/UDP/TCP/WebSocket/Modbus/CAN/MQTT, with Lua/JS scripting and charts; busy UI but a Swiss‑army debug kit. 🟩 [OSS]🟦 [Popular]
 - [truST Platform](https://github.com/johannesPettersson80/trust-platform) — Rust‑heavy IEC 61131-3 toolchain with LSP, runtime, and debugger plus VS Code/Neovim/Zed setup; ambitious full‑stack ST platform, not a light plugin. 🟩 [OSS]
 - [TIA Portal Openness Code Snippets](https://github.com/siemens/tia-portal-openness-code-snippets) — Siemens-authored examples for the TIA Portal Openness API (V20), showing how to automate engineering workflows and project manipulation. 🟩 [OSS]
+- [Open Process Library](https://github.com/SASE-Space/open-process-library) — MIT cross-vendor process automation library targeting MTP: specs-first process objects (valves, motors, measurements, PID, interlocks) plus a Deno codegen pipeline to generate PLC blocks and import artefacts (TwinCAT first). Early, but the spec > code workflow is the point. 🟩 [OSS]
 
 ## Analysis and verification
 
