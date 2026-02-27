@@ -2,11 +2,11 @@
 
 Repos and projects focused on PLCs, SCADA, and control systems.
 
-Labels: 🟩 [OSS] open-source licence detected, 🟥 [No licence] no licence detected, ⬛ [Archived] archived, 🟧 [Maintained?] no push in ~12 months, 🟦 [Popular] >1,000 stars or >500 forks.
+Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Maintained?] no push in ~12 months, 🟦 [Popular] >1,000 stars or >500 forks.
 
 ## VS Code extensions
 
-- [ControlForge Structured Text](https://github.com/ControlForge-Systems/controlforge-structured-text) — VS Code extension for IEC 61131-3 Structured Text, with LSP, diagnostics, formatting, and rich editor tooling for PLC developers. 🟩 [OSS]
+- [ControlForge Structured Text](https://github.com/ControlForge-Systems/controlforge-structured-text) — VS Code Structured Text IDE with LSP, diagnostics, refactors, formatting, and strong IEC 61131-3 tooling; the most full‑stack ST extension here. 🟩 [OSS]
 - [vscode-st](https://github.com/Serhioromano/vscode-st) — Broad Structured Text support for VS Code with syntax highlighting, snippets, outline, and a beta formatter; one of the most complete ST extensions. 🟩 [OSS]
 
 ## Soft PLCs and runtimes
@@ -151,7 +151,7 @@ Cut-off: last push before 2025-02-27.
 - [OpenPLC v2](https://github.com/thiagoralves/OpenPLC_v2) — GPL virtual PLC with ST to C compilation and a Node.js web UI for program uploads; older, but still clear and hackable. 🟩 [OSS] 🟧 [Maintained?]
 - [OpenPLC (legacy)](https://github.com/thiagoralves/OpenPLC) — Early GPL OpenPLC stack focused on ladder diagrams and Modbus/TCP with a Node.js HTTP server; useful for archaeology and small experiments. 🟩 [OSS] 🟧 [Maintained?]
 - [SoftBeckhoff](https://github.com/fbarresi/SoftBeckhoff) — MIT C# “virtual Beckhoff” ADS server with Docker and a REST API; useful for local testing, but still heavy‑dev and not a full PLC. 🟩 [OSS] 🟧 [Maintained?]
-- [TcOpen](https://github.com/TcOpenGroup/TcOpen) — MIT TwinCAT 3 + .NET application framework with deep docs, sequencers, data layer, and components; archived in 2025, but still a gold‑standard reference. 🟩 [OSS]⬛ [Archived] 🟧 [Maintained?]
+- [TcOpen](https://github.com/TcOpenGroup/TcOpen) — MIT TwinCAT 3 + .NET application framework with deep docs, sequencers, data layer, and components; archived in 2025, but still a gold‑standard reference. 🟩 [OSS] 🟧 [Maintained?]
 - [PLC2Skill](https://github.com/CaSkade-Automation/PLC2Skill) — Java toolchain that maps PLCopen XML into semantic skill models (OWL) with CLI and REST API; academically grounded and useful for ISA‑88/skill‑based control, but heavy and niche. 🟩 [OSS] 🟧 [Maintained?]
 - [ladder_parser](https://github.com/AnthonyMujic/ladder_parser) — Elixir tool that converts 2D ASCII ladder logic into AST and executable expressions; bare‑bones but conceptually interesting for migration and documentation workflows. 🟩 [OSS] 🟧 [Maintained?]
 - [OpenPLC Ladder Editor](https://github.com/thiagoralves/OpenPLC-Ladder-Editor) — CC BY-SA ladder editor for OpenPLC and Arduino, bundled as a light fork of LDmicro; simple and dated, but still handy for small demos. 🟩 [OSS] 🟧 [Maintained?]
