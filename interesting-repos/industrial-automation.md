@@ -109,6 +109,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 
 - [FUXA](https://github.com/frangoteam/FUXA) — Web-based SCADA/HMI with a full browser editor, multi‑protocol connectivity (Modbus, S7, OPC UA, BACnet, MQTT, EtherNet/IP), and a Node + Angular stack; strong community and rapid releases. 🟩 [OSS]🟦 [Popular]
 - [scada.js](https://github.com/aktos-io/scada.js) — JavaScript framework for distributed, real‑time SCADA and MRP/ERP apps across web, desktop (Electron), and mobile, with microservices support and broad driver coverage. 🟥 [No licence]
+- [WinCC Unified Debug Proxy](https://github.com/ploxc/wincc-unified-debug-proxy) — MIT local debug proxy for Siemens WinCC Unified; useful when you need to inspect or replay traffic and make HMI integration less opaque. 🟩 [OSS]
 
 ## Data collection and observability
 
