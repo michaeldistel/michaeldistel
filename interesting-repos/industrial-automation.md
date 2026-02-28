@@ -26,10 +26,10 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 - [4diac IDE](https://github.com/eclipse-4diac/4diac-ide) — Eclipse IDE for IEC 61499 distributed automation, actively maintained and good for IPMCS workflows; a different mental model than classic IEC 61131-3. 🟩 [OSS]
 - [TwinCatChangelog](https://github.com/Roald87/TwinCatChangelog) — MIT community‑maintained TwinCAT changelog site, filling the gap left by missing official release notes; high value for upgrade planning and regression tracking. 🟩 [OSS]
 - [Twinpack](https://github.com/zeugwerk/twinpack) — GPL TwinCAT package manager with IDE integration and multiple package sources (Twinpack server, NuGet, Beckhoff repo); great idea, but depends on a new ecosystem. 🟩 [OSS]
-- [Acceleer CLI](https://github.com/acceleer/acceleer-cli) — Windows‑only CLI for Acceleer blueprints (Linux “later”), with almost no docs; only useful if already on their stack. 🟥 [No licence]
 - [Reflect](https://github.com/Joshpolansky/reflect) — MIT C++20 JSON reflection library built on Boost.PFR and nlohmann/json; convenient for schemas and tooling, but heavy deps and still early. 🟩 [OSS]
 - [x-tools](https://github.com/x-tools-author/x-tools) — LGPL Qt toolbox for serial/HID/BLE/UDP/TCP/WebSocket/Modbus/CAN/MQTT, with Lua/JS scripting and charts; busy UI but a Swiss‑army debug kit. 🟩 [OSS]🟦 [Popular]
 - [truST Platform](https://github.com/johannesPettersson80/trust-platform) — Rust‑heavy IEC 61131-3 toolchain with LSP, runtime, and debugger plus VS Code/Neovim/Zed setup; ambitious full‑stack ST platform, not a light plugin. 🟩 [OSS]
+- [RuSTy](https://github.com/PLC-lang/rusty) — Rust structured-text compiler front-end targeting LLVM for native code generation; serious attempt at an industry-grade open ST compiler, but the runtime integration story is still on you. 🟩 [OSS]
 - [TIA Portal Openness Code Snippets](https://github.com/siemens/tia-portal-openness-code-snippets) — Siemens-authored examples for the TIA Portal Openness API (V20), showing how to automate engineering workflows and project manipulation. 🟩 [OSS]
 - [Open Process Library](https://github.com/SASE-Space/open-process-library) — MIT cross-vendor process automation library targeting MTP: specs-first process objects (valves, motors, measurements, PID, interlocks) plus a Deno codegen pipeline to generate PLC blocks and import artefacts (TwinCAT first). Early, but the spec > code workflow is the point. 🟩 [OSS]
 
@@ -37,6 +37,15 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 
 - [blark](https://github.com/klauer/blark) — GPL‑2.0 Python parser for TwinCAT ST and project files using Lark; powerful for AST/refactor workflows but the grammar is explicitly imperfect. 🟩 [OSS]
 - [IEC Checker](https://github.com/jubnzv/iec-checker) — LGPL static analyser for IEC 61131-3 ST/PLCopen XML with PLCopen guideline rules and JSON IR export; development is paused, so treat it as stable‑ish tooling. 🟩 [OSS]
+
+## Protocol references
+
+- [awesome-industrial-protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols) — Security-oriented awesome list of industrial network protocols with per-protocol pages and a curated tool/resource index; good starting map when you are doing protocol archaeology. 🟩 [OSS]
+
+## Project file formats and reverse engineering
+
+- [acd](https://github.com/hutcheb/acd) — Apache-2.0 Python tooling for Rockwell ACD files (zip-like archive containing compressed XML plus databases), with routines/tags extraction and raw record dumping; the most complete open description of ACD internals I've seen. 🟩 [OSS]
+- [ra-logix-designer-vcs-custom-tools](https://github.com/RockwellAutomation/ra-logix-designer-vcs-custom-tools) — Rockwell-authored .NET 8 CLI utilities to explode/implode L5X into Git-friendly folders and (optionally) convert ACD <-> L5X via the Logix Designer SDK; good signal that Rockwell knows diff/merge matters, even if it is still Windows-first. 🟩 [OSS]
 
 ## CODESYS tooling
 
@@ -55,6 +64,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 - [SOES](https://github.com/OpenEtherCATsociety/SOES) — Compact C EtherCAT slave stack focused on learning and embedded use, with CoE, PDO mapping, FoE template, and DC sync; docs are thin and last release is 2021. 🟩 [OSS]
 - [ethercrab](https://github.com/ethercrab-rs/ethercrab) — Pure Rust async‑first EtherCAT MainDevice with std and no_std support, plus distributed clocks and SDO tooling; modern and safe, but still evolving. 🟩 [OSS]
 - [KickCAT](https://github.com/leducp/KickCAT) — Active C++ EtherCAT master/slave stack with CoE SDO support, redundancy, Python bindings, and a built‑in simulator; licence is CeCILL‑C, so check compatibility. 🟩 [OSS]
+- [ethercat-tool](https://github.com/dbrowngm/ethercat-tool) — MIT Python CLI for EtherCAT troubleshooting: enumerate adapters, scan a chain, emit a markdown topology report, and read the same ESC link/CRC counters TwinCAT surfaces; very new, but immediately practical. 🟩 [OSS]
 
 ## Modbus
 
@@ -70,6 +80,8 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 - [pylogix](https://github.com/dmroeder/pylogix) — Python driver for Rockwell ControlLogix/CompactLogix/Micro8xx over EtherNet/IP, focused on easy tag read/write; explicitly not for PLC‑5/SLC/MicroLogix. 🟩 [OSS]
 - [pycomm3](https://github.com/ottowayi/pycomm3) — Python 3 Ethernet/IP library for Allen‑Bradley PLCs with CIP, Logix, and legacy drivers; explicitly not actively developed, but still a solid reference for quick tag access. 🟩 [OSS]
 - [libplctag](https://github.com/libplctag/libplctag) — Dual‑licensed (MPL 2.0 / LGPL 2+) C library for EtherNet/IP and Modbus TCP tag access; stable API since 2012 and widely wrapped in .NET, Go, Java, and more. 🟩 [OSS]
+- [cpppo](https://github.com/pjkundert/cpppo) — GPL-3.0 EtherNet/IP CIP parser/originator plus a simulator/client for unconnected messaging (and a bunch of other protocol glue); powerful, but opinionated and carries commercial licensing context. 🟩 [OSS]
+- [OpENer](https://github.com/EIPStackGroup/OpENer) — BSD-style licensed EtherNet/IP adapter stack for embedded I/O devices (explicit + I/O connections, CIP objects, fuzzing harnesses); "open" but still ODVA-spec-shaped, and patent/licensing realities sit outside the repo. 🟩 [OSS]
 
 ## PROFINET
 
@@ -104,6 +116,8 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 - [snap7-gui](https://github.com/Autonomy-Logic/snap7-gui) — Python/PySide6 desktop GUI for S7Comm with live tag monitoring and quick read/write; small tool but handy for field checks. 🟩 [OSS]
 - [SIMATIC S7 Webserver API (.NET)](https://github.com/siemens/simatic-s7-webserver-api) — Siemens official .NET client for the SIMATIC S7 PLC Webserver API, useful for diagnostics and data access over HTTP. 🟩 [OSS]
 - [SIMATIC S7 Webserver API (TypeScript)](https://github.com/siemens/typescript-simatic-s7-webserver-api) — Siemens TypeScript client bindings for the SIMATIC S7 Webserver API. 🟩 [OSS]
+- [DotNetSiemensPLCToolBoxLibrary](https://github.com/dotnetprojects/DotNetSiemensPLCToolBoxLibrary) — LGPL C# library for Siemens S7/S5 connectivity and Step5/Step7 project parsing; includes one of the better public descriptions of the STEP 7 v5.x project file format. 🟩 [OSS]
+- [S7CommPlusDriver](https://github.com/thomas-v2/S7CommPlusDriver) — LGPL C# driver for Siemens S7-1200/1500 "S7comm-Plus" with TLS support (optimised DB symbolic access), plus practical notes on exporting TLS secrets for Wireshark decryption; explicitly not production-ready. 🟩 [OSS]
 
 ## SCADA and HMI
 
@@ -115,6 +129,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 
 - [Telegraf](https://github.com/influxdata/telegraf) — InfluxData’s MIT-licensed agent with 300+ plugins for collecting, processing, and forwarding metrics, logs, and industrial protocol data (OPC UA, Modbus, MQTT), widely deployed at the edge. 🟩 [OSS]🟦 [Popular]
 - [EdgeShark](https://github.com/siemens/edgeshark) — Siemens tooling to discover and live‑capture container network traffic from desktop Wireshark via a containerised service and extcap plugin; strong fit for debugging industrial edge stacks. 🟩 [OSS]🟦 [Popular]
+- [Wireshark](https://github.com/wireshark/wireshark) — The packet dissector supply chain; if you care about industrial protocols, you care about Wireshark, and the S7Comm lineage in `epan/dissectors/packet-s7comm.h` is a good example of how "reference" code quietly becomes canon. 🟩 [OSS]🟦 [Popular]
 
 ## Simulation, digital twin, and CAD
 
@@ -124,6 +139,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 ## OT security labs
 
 - [GRFICSv3](https://github.com/Fortiphyd/GRFICSv3) — Fully containerised OT/ICS cyber-physical lab simulating a chemical plant with PLCs, HMI, realistic networking, and a 3D process visualisation for hands‑on security training. 🟩 [OSS]
+- [ICS Forensics Tools](https://github.com/microsoft/ics-forensics-tools) — Microsoft ICSpector framework to scan PLC environments and analyse metadata and project files for suspicious artefacts; more incident-response plumbing than "lab", and useful precisely because it is boring. 🟩 [OSS]
 
 ## Testing and quality
 
@@ -180,3 +196,9 @@ Cut-off: last push before 2025-02-27.
 - [Omniverse Beckhoff Bridge Extension](https://github.com/loupeteam/Omniverse_Beckhoff_Bridge_Extension) — NVIDIA Omniverse extension that bridges Beckhoff PLCs into Omniverse via ADS using pyads; MIT for Loupe-written files, but intended to run under the NVIDIA Omniverse licence umbrella. 🟩 [OSS] 🟧 [Maintained?]
 - [Omniverse B&R Bridge Extension](https://github.com/loupeteam/Omniverse_BnR_Bridge_Extension) — NVIDIA Omniverse extension that bridges B&R PLCs into Omniverse via a WebSocket driver and OMJSON; same Omniverse licence caveat as above. 🟩 [OSS] 🟧 [Maintained?]
 - [TcSequencer](https://github.com/loupeteam/TcSequencer) — Minimal Beckhoff TwinCAT sequencing library from Loupe; tiny README, but useful as a reference for structuring steps and transitions. 🟩 [OSS] 🟧 [Maintained?]
+- [enip-stack-detector](https://github.com/claroty/enip-stack-detector) — Claroty Python2-era scanner that fingerprints EtherNet/IP protocol stack implementations by behavioural quirks; useful for asset triage and vuln scoping, but frozen in time. 🟩 [OSS] 🟧 [Maintained?]
+- [DecryptSourceProtection](https://github.com/skdatmonster/DecryptSourceProtection) — Browser-based tool and write-up for Rockwell Logix source protection in L5X exports; hilarious and educational, but also sharp-edged. 🟥 [No licence] 🟧 [Maintained?]
+- [l5x2c](https://github.com/alairjunior/l5x2c) — Work-in-progress Python transcompiler that converts Rockwell L5X ladder into C (accumulator-machine model) for verification tooling like CBMC; minimal but conceptually useful. 🟩 [OSS] 🟧 [Maintained?]
+- [libnodave](https://sourceforge.net/projects/libnodave/) — Classic C library for talking to Siemens S7 (300/400) and older families; lots of downstream lineage, but SourceForge-era maintenance. 🟩 [OSS] 🟧 [Maintained?]
+- [mc7](https://gitlab.com/nnaumenko/mc7) — GitLab repo with a surprisingly thorough STL -> MC7 bytecode mapping table for classic S7 (Step7 5.5 era); fantastic reference, and also clearly old research with no explicit licence. 🟥 [No licence] 🟧 [Maintained?]
+- [scapy-cip-enip](https://github.com/scy-phy/scapy-cip-enip) — MIT Scapy dissector/tooling for EtherNet/IP + CIP built for the SWaT testbed; handy for crafting and decoding traffic, but Python 2.7 and long-stale. 🟩 [OSS] 🟧 [Maintained?]
