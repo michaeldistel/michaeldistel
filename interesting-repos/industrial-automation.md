@@ -132,6 +132,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 ## Robotics and integration
 
 - [ethercat_driver_ros2](https://github.com/ICube-Robotics/ethercat_driver_ros2) — ROS 2 driver that plugs EtherCAT fieldbus devices into the ros2_control hardware interface layer for robot control. 🟩 [OSS]
+- [A3br](https://github.com/loupeteam/A3br) — B&R Automation Studio library that talks to ABB Robot Web Services (RWS) from a PLC: read/write RAPID symbols and IO, query controller state, and start/stop execution; primarily MIT but includes APSL/Apache-licensed base64 code. 🟩 [OSS]
 
 ## Edge and platform stacks
 
@@ -172,3 +173,10 @@ Cut-off: last push before 2025-02-27.
 - [coUnit](https://github.com/Aliazzzz/coUnit) — CODESYS v3.5 fork of TcUnit; useful for basic TDD workflows, but thin README and points to the upstream CODESYS Forge project. 🟩 [OSS] 🟧 [Maintained?]
 - [OpenPLC-Neo](https://github.com/thiagoralves/OpenPLC-Neo) — OpenPLC hardware reference with CPU and digital I/O card designs; cool concept, but no licence and sparse documentation. 🟥 [No licence] 🟧 [Maintained?]
 - [SIMATIC S7 Webserver API (Python)](https://github.com/siemens/python-simatic-s7-webserver-api) — Siemens Python client bindings for the SIMATIC S7 Webserver API. 🟩 [OSS] 🟧 [Maintained?]
+- [Piper](https://github.com/loupeteam/Piper) — Loupe's distributed machine sequencing library for B&R controllers, built around PackML-style states and modular machine subsystems; installed via LPM packages. 🟩 [OSS] 🟧 [Maintained?]
+- [Loupe-UX](https://github.com/loupeteam/Loupe-UX) — JavaScript library for web-based HMIs in the Loupe ecosystem; pairs with an LPM workflow and can run against a simulated PLC backend. 🟩 [OSS] 🟧 [Maintained?]
+- [ASPython](https://github.com/loupeteam/ASPython) — Python tooling to script B&R Automation Studio project operations (build, export libs, package ARsim installers, run unit tests, package HMIs); useful for CI glue. 🟩 [OSS] 🟧 [Maintained?]
+- [LPM](https://github.com/loupeteam/LPM) — Loupe Package Manager: CLI to install/manage packages in Automation Studio and Loupe UX projects, including dependencies and docs tooling; nice ecosystem move, but Windows-first. 🟩 [OSS] 🟧 [Maintained?]
+- [Omniverse Beckhoff Bridge Extension](https://github.com/loupeteam/Omniverse_Beckhoff_Bridge_Extension) — NVIDIA Omniverse extension that bridges Beckhoff PLCs into Omniverse via ADS using pyads; MIT for Loupe-written files, but intended to run under the NVIDIA Omniverse licence umbrella. 🟩 [OSS] 🟧 [Maintained?]
+- [Omniverse B&R Bridge Extension](https://github.com/loupeteam/Omniverse_BnR_Bridge_Extension) — NVIDIA Omniverse extension that bridges B&R PLCs into Omniverse via a WebSocket driver and OMJSON; same Omniverse licence caveat as above. 🟩 [OSS] 🟧 [Maintained?]
+- [TcSequencer](https://github.com/loupeteam/TcSequencer) — Minimal Beckhoff TwinCAT sequencing library from Loupe; tiny README, but useful as a reference for structuring steps and transitions. 🟩 [OSS] 🟧 [Maintained?]
