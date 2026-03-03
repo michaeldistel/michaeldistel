@@ -10,18 +10,27 @@ Size is a best-effort read from public info.
 
 ### Europe
 
+- [ABB](https://new.abb.com) — Global automation and electrification vendor with deep DCS, PLC, drives, and instrumentation footprint across process and hybrid industries. ⬛ [Large]
 - [Siemens](https://www.siemens.com) — Industrial automation giant (SIMATIC, TIA Portal, edge, SCADA) that sets de facto plant standards and shapes the integration perimeter. ⬛ [Large]
 - [Schneider Electric](https://www.se.com) — Industrial automation + energy management at global scale; PLCs, drives, SCADA (EcoStruxure) and a big integrator channel. ⬛ [Large]
 - [Bosch Rexroth](https://www.boschrexroth.com) — Motion, drives, hydraulics and automation platforms; strong at the machine layer and industrial components. ⬛ [Large]
 - [Beckhoff Automation](https://www.beckhoff.com) — PC-based control (TwinCAT) and EtherCAT ecosystem; a big influence on modern OT developer workflow expectations. ⬛ [Large]
 - [B&R Industrial Automation](https://www.br-automation.com) — Machine automation platform under ABB; strong footprint in motion and packaging-style machines. ⬛ [Large]
 - [AVEVA](https://www.aveva.com) — Industrial software portfolio (SCADA, historian, engineering) now under Schneider; a consolidation story with long tails. ⬛ [Large]
+- [WAGO](https://www.wago.com) — Controller/I/O and connection-technology vendor with strong DIN-rail presence and a pragmatic automation stack in factory and building contexts. ⬛ [Large]
+- [Phoenix Contact](https://www.phoenixcontact.com) — Industrial connectivity, controls, and PLCnext vendor with broad panel-to-cloud product coverage and long channel reach. ⬛ [Large]
+- [Endress+Hauser](https://www.endress.com) — Process instrumentation and analytics heavyweight; deeply embedded in lifecycle workflows where measurement quality drives compliance. ⬛ [Large]
+- [SEW-EURODRIVE](https://www.sew-eurodrive.com) — Drive technology and decentralised motion specialist; often the backbone in conveyor, intralogistics, and machine architectures. ⬛ [Large]
+- [Festo](https://www.festo.com) — Pneumatics and automation vendor with strong machine-building pull, especially where motion and handling systems dominate. ⬛ [Large]
+- [Pepperl+Fuchs](https://www.pepperl-fuchs.com) — Industrial sensing and hazardous-area automation specialist with sticky footprint in process and safety-critical environments. ⬛ [Large]
+- [SICK](https://www.sick.com) — Sensor intelligence vendor spanning factory and logistics automation; often selected when sensing quality is the system constraint. ⬛ [Large]
 
 ### North America
 
 - [Rockwell Automation](https://www.rockwellautomation.com) — North American PLC and factory software gravity well (Logix, FactoryTalk) with ecosystem lock-in as a feature. ⬛ [Large]
 - [Emerson](https://www.emerson.com) — Process automation giant (DeltaV) with strong DCS footprint and lifecycle leverage in regulated industries. ⬛ [Large]
 - [Kepware](https://www.kepware.com) — Industrial connectivity and OPC gateway business under PTC; commonly the pragmatic "it just works" layer. ⬛ [Large]
+- [Honeywell](https://automation.honeywell.com) — Industrial automation and process controls vendor (Experion, ControlEdge, safety stack) with deep presence in energy, chemicals, and infrastructure. ⬛ [Large]
 
 ### Japan
 
@@ -89,6 +98,7 @@ Size is a best-effort read from public info.
 
 ## Adjacent (OT software, data, IIoT, robotics)
 
+- [Ironloop](https://www.ironloop.com) — OT security and compliance software built for on-prem and air-gapped environments; positioning is execution-focused rather than dashboard theatre. 🟩 [Small]
 - [Cognite](https://www.cognite.com) — Industrial data platform story aimed at large asset owners; integration and modelling is the hard part. 🟦 [Mid]
 - [HighByte](https://highbyte.com) — Industrial data ops and contextualisation layer; sits between OT sources and IT sinks. 🟩 [Small]
 - [Litmus Automation](https://litmus.io) — Edge data platform and industrial connectivity; gateway and management is the wedge. 🟦 [Mid]
@@ -96,6 +106,7 @@ Size is a best-effort read from public info.
 - [HiveMQ](https://www.hivemq.com) — MQTT broker and enterprise tooling; industrial messaging sold as reliability and ops. 🟦 [Mid]
 - [Tulip Interfaces](https://tulip.co) — Frontline operations app platform for manufacturing; wins when it becomes a workflow OS. 🟦 [Mid]
 - [Copia Automation](https://www.copia.io) — Source control and DevOps workflow layer for industrial automation projects. 🟦 [Mid]
+- [SysGit](https://www.sysgit.io) — Git-native requirements and MBSE collaboration platform for complex hardware; an interesting signal for bringing software workflow discipline into industrial and defence engineering stacks. 🟩 [Small]
 - [Falkonry](https://www.falkonry.com) — Industrial AI for time series and anomaly detection; adoption is a deployment and trust problem. 🟦 [Mid]
 - [TwinThread](https://www.twinthread.com) — Industrial analytics platform; value depends on fast time-to-insight in messy plants. 🟩 [Small]
 - [Oqton](https://oqton.com) — Manufacturing software stack (MES-ish) with strong additive manufacturing heritage; now 3D Systems owned. 🟦 [Mid]
