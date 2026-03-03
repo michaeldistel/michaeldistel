@@ -31,6 +31,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 - [truST Platform](https://github.com/johannesPettersson80/trust-platform) — Rust‑heavy IEC 61131-3 toolchain with LSP, runtime, and debugger plus VS Code/Neovim/Zed setup; ambitious full‑stack ST platform, not a light plugin. 🟩 [OSS]
 - [RuSTy](https://github.com/PLC-lang/rusty) — Rust structured-text compiler front-end targeting LLVM for native code generation; serious attempt at an industry-grade open ST compiler, but the runtime integration story is still on you. 🟩 [OSS]
 - [TIA Portal Openness Code Snippets](https://github.com/siemens/tia-portal-openness-code-snippets) — Siemens-authored examples for the TIA Portal Openness API (V20), showing how to automate engineering workflows and project manipulation. 🟩 [OSS]
+- [TIA Openness Whitelist Manager](https://github.com/RLa-gent/TiaOpennessWhitelistManager) — MIT Windows-only helper that automates TIA Portal Openness allowlisting (TIA v21+ allowlist path, older whitelist path) via an MCP server and named pipe, plus a drop-in Visual Studio post-build script; small, but removes a very real paper cut. 🟩 [OSS]
 - [Open Process Library](https://github.com/SASE-Space/open-process-library) — MIT cross-vendor process automation library targeting MTP: specs-first process objects (valves, motors, measurements, PID, interlocks) plus a Deno codegen pipeline to generate PLC blocks and import artefacts (TwinCAT first). Early, but the spec > code workflow is the point. 🟩 [OSS]
 
 ## Analysis and verification
