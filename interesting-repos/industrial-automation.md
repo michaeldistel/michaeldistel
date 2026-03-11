@@ -13,6 +13,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 
 - [IronPLC](https://github.com/ironplc/ironplc) — Rust SoftPLC project focused on an IEC 61131-3 parser, semantic analyser, and VS Code extension; runtime execution is still the missing piece. 🟩 [OSS]
 - [Gipop](https://github.com/andergisomon/Gipop) — Rust SoftPLC with Modbus and OPC UA modules plus EtherCAT via Ethercrab; early-stage, but a concrete protocol-first build. 🟩 [OSS]
+- [OCA release](https://github.com/mcdbcherry/oca_release) — C++20 software controller runtime targeting Linux/Windows/ARM with deterministic scan claims, VS Code workflow, and platform support including IOT2050 and Raspberry Pi; interesting architecture signal, but licensing is proprietary/non-commercial by default. 🟥 [No licence]
 - [OpenPLC Runtime v4](https://github.com/Autonomy-Logic/openplc-runtime) — MIT headless PLC runtime with a C/C++ core and Flask API; compiles uploaded IEC 61131-3 programs, runs deterministic scans, and exposes WebSocket debugging plus a plugin system, but only makes sense paired with the OpenPLC Editor. 🟩 [OSS]
 - [OpenPLC Runtime v3](https://github.com/thiagoralves/OpenPLC_v3) — GPL runtime for OpenPLC with an install script, webserver UI, and optional EtherCAT support; widely used in research and training, but still a hands-on build. 🟩 [OSS]🟦 [Popular]
 
@@ -158,6 +159,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 - [SagooIOT](https://github.com/sagoo-cloud/sagooiot) — Chinese-first Go-based enterprise IoT platform with multi-protocol access (MQTT, CoAP, HTTP, OPC UA, Modbus), plugin architecture, and a full web UI stack; GPL-3.0 with commercial licensing for proprietary use. 🟩 [OSS]🟦 [Popular]
 - [DGIOT](https://github.com/dgiot/dgiot) — China-based, very active industrial IoT platform with device access, protocol adapters, object models, rule engine, and low-code configuration pages; Erlang-heavy core aiming at high device counts and carrier-grade stability. 🟩 [OSS]🟦 [Popular]
 - [orchestrator-agent](https://github.com/Autonomy-Logic/orchestrator-agent) — Python edge daemon that mTLS‑connects to Autonomy Edge Cloud and orchestrates OpenPLC v4 containers with MACVLAN networking; useful if running their cloud, irrelevant otherwise. 🟩 [OSS]
+- [controlOS demo](https://github.com/arwie/controlOS_demo) — Linux-based machine control platform demo with PREEMPT-RT, integrated CODESYS runtime, Python shared-memory co-processing, web HMIs, OTA updates, and reproducible PTXdist builds; strong systems blueprint, but licensing terms are not declared. 🟥 [No licence]
 - [SIMATIC IOT2050 BSP](https://github.com/siemens/meta-iot2050) — Siemens Debian/Isar board support package for SIMATIC IOT2050 edge devices. 🟩 [OSS]
 
 ## UI and design systems
