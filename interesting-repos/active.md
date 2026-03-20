@@ -45,6 +45,7 @@ Links can be repos or websites.
 ![AI setup](../static/ai-setup.png)
 
 - [OpenCode](https://github.com/anomalyco/opencode) — CLI coding agent for daily AI workflows.
+- [OpenCLI](https://github.com/jackwener/opencli) — Turns websites and Electron apps into CLI adapters for agent-driven automation; high-velocity project with practical browser bridge ergonomics. 🟩 [OSS] 🟦 [Popular]
 - [GitHub Copilot](https://github.com/github/copilot-docs) — Copilot subscription and docs.
 
 ## Things I built
