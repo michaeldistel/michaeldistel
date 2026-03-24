@@ -48,7 +48,7 @@ Links can be repos or websites.
 - [OpenCLI](https://github.com/jackwener/opencli) — Turns websites and Electron apps into CLI adapters for agent-driven automation; high-velocity project with practical browser bridge ergonomics. 🟩 [OSS] 🟦 [Popular]
 - [GitHub Copilot](https://github.com/github/copilot-docs) — Copilot subscription and docs.
 
-## Things I built
+## Things I built for fun (eg not my day job stuff)
 
 - [ControlForge Structured Text](https://github.com/ControlForge-Systems/controlforge-structured-text) — VS Code extension for IEC 61131-3.
 - [Ordis](https://github.com/ordis-dev/ordis) — Schema-first extraction tool.
