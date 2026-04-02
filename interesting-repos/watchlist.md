@@ -10,6 +10,8 @@ Repos and projects I want to check out.
 - [paperclip](https://github.com/paperclipai/paperclip) — Multi-agent company orchestration layer with budgets, governance, and persistent tasking; interesting operating system thesis for autonomous teams. 🟩 [OSS] 🟦 [Popular]
 - [Google Workspace CLI](https://github.com/googleworkspace/cli) — Dynamic CLI generated from Google Discovery docs with strong agent ergonomics and skills packaging. 🟩 [OSS] 🟦 [Popular]
 - [pinchtab](https://github.com/pinchtab/pinchtab) — Lightweight browser-control server for agents with local-first defaults and multi-instance orchestration. 🟩 [OSS] 🟦 [Popular]
+- [hermes-agent](https://github.com/NousResearch/hermes-agent) — Self-improving agent runtime with persistent memory, skill creation loop, messaging gateway, and multi-backend execution (local, Docker, SSH, Modal/Daytona); serious operator surface, though breadth and autonomy claims likely need disciplined safety policy and config hygiene in production. 🟩 [OSS] 🟦 [Popular]
+- [molmoweb](https://github.com/allenai/molmoweb) — Open multimodal web agent stack from Ai2 with browser control, inference client, and reproducible benchmark path across local/cloud environments; strong research-to-ops bridge, though real-world reliability and eval depth still look early in the public roadmap. 🟩 [OSS]
 - [copilot-sdk](https://github.com/github/copilot-sdk) — Multi-language SDK layer over Copilot CLI’s agent runtime with JSON-RPC transport, BYOK options, and hooks/skills integration; fast way to embed agent workflows, though dependency on Copilot CLI server mode adds operational coupling. 🟩 [OSS] 🟦 [Popular]
 - [expect](https://github.com/millionco/expect) — Diff-aware browser testing CLI that generates AI test plans and executes them in live browser sessions with replay support; strong fast-feedback loop for web changes, but the FSL-1.1-MIT licence and agent/runtime coupling are real constraints. 🟦 [Popular]
 
@@ -35,9 +37,12 @@ Repos and projects I want to check out.
 - [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) — Large community catalogue of real OpenClaw workflows across productivity, research, content, and operations, with concrete setup docs per scenario; excellent adoption playbook, though security quality still varies with linked third-party skills and integrations. 🟩 [OSS] 🟦 [Popular]
 - [database-skills](https://github.com/planetscale/database-skills) — Focused skill pack for MySQL, Postgres, Vitess, and PlanetScale’s Neki to guide schema design, query tuning, and ops troubleshooting in agent workflows; useful domain grounding, though practical quality depends on keeping references current with fast-moving database features. 🟩 [OSS]
 - [emil-design-eng](https://github.com/emilkowalski/skill/tree/main/skills/emil-design-eng) — Detailed UI craft playbook for interaction design and frontend implementation with concrete motion and component heuristics; high-signal guidance, but no clear repo licence metadata yet. 🟥 [No licence]
+- [leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) — Large collection of leaked and reproducible system prompts for major LLM services with source links; useful for prompt-security and eval baselines, but provenance quality varies and DMCA/legal risk is explicit. 🟥 [No licence] 🟦 [Popular]
+- [claude-token-efficient](https://github.com/drona23/claude-token-efficient) — Minimal `CLAUDE.md` rule pack to suppress verbosity and trim token burn in output-heavy agent workflows, with benchmark-style comparisons and profile variants; pragmatic for cost control, but gains are workload-dependent and extra prompt overhead can backfire on short sessions. 🟩 [OSS] 🟦 [Popular]
 
 ### Safety, sandboxing, and evals
 
+- [sentrux](https://github.com/sentrux/sentrux) — Architectural quality sensor for agent-driven coding with live structure scoring, CI gates, and MCP hooks to enforce regression boundaries across sessions; strong governance angle, though its composite quality metric still needs careful calibration against each team’s architecture standards. 🟩 [OSS]
 - [skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) — Multi-engine scanner for agent skills combining signature rules, behavioural dataflow, LLM judging, and CI/SARIF outputs; solid defence-in-depth baseline, but maintainers rightly position it as best-effort detection rather than certification. 🟩 [OSS] 🟦 [Popular]
 - [gondolin](https://github.com/earendil-works/gondolin) — Local micro-VM sandbox for agent-executed code with programmable network/filesystem policy, secret injection controls, and snapshotting; strong safety primitive for autonomous tooling, though operational ergonomics and backend complexity are still early-stage. 🟩 [OSS]
 - [crust](https://github.com/BakeLens/crust) — Local gateway that intercepts agent tool calls across HTTP, MCP, and ACP with rule-based blocking, DLP scanning, and plugin hooks before execution; compelling safety layer, though Elastic License 2.0 terms make commercial redistribution constraints worth checking early.
@@ -64,6 +69,7 @@ Repos and projects I want to check out.
 
 ### Productivity, email, and personal knowledge
 
+- [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Agent-oriented CLI for deterministic Word/Excel/PowerPoint creation and editing with JSON output, batch/resident modes, and MCP integration; strong automation surface for document pipelines, though feature breadth and fast release pace likely require careful version pinning in production flows. 🟩 [OSS] 🟦 [Popular]
 - [msgvault](https://github.com/wesm/msgvault) — Offline-first email/archive system with Gmail and IMAP sync, DuckDB-backed search/analytics, and MCP access over local history; strong data-sovereignty angle, though still alpha with storage/API churn risk. 🟩 [OSS] 🟦 [Popular]
 - [velo](https://github.com/avihaymenahem/velo) — Keyboard-first, local-first desktop email client on Tauri/Rust with Gmail plus IMAP support and optional multi-provider AI assist; strong product polish for power users, though setup still depends on user-managed OAuth/API credentials. 🟩 [OSS]
 - [mails](https://github.com/chekusu/mails) — Email infrastructure for agents with CLI/SDK send-receive flows, hosted mailboxes, and self-hosted Cloudflare Worker paths; practical integration surface, but licence metadata is currently unclear. 🟥 [No licence]
@@ -79,6 +85,7 @@ Repos and projects I want to check out.
 
 ### Models and systems experiments
 
+- [models.dev](https://github.com/anomalyco/models.dev) — Open-source model catalogue with structured provider/model metadata, pricing, limits, and capabilities exposed as API/JSON; practical backbone for eval tooling and model routing, though freshness still depends on steady community updates. 🟩 [OSS] 🟦 [Popular]
 - [Kimi-K2.5](https://github.com/MoonshotAI/Kimi-K2.5) — Native multimodal MoE model release with long context and explicit agent/tooling modes, plus deployment guides for vLLM/SGLang; ambitious capability envelope, though the modified MIT terms add a hyperscale UI attribution condition to watch. 🟦 [Popular]
 - [claudes-c-compiler](https://github.com/anthropics/claudes-c-compiler) — End-to-end C compiler written in Rust with in-house frontend, SSA pipeline, assembler, linker, and multi-arch backends, positioned as an autonomy stress test rather than production tooling; impressive systems scope, but maintainer explicitly flags correctness and portability risk. 🟩 [OSS] 🟦 [Popular]
 
