@@ -11,7 +11,7 @@ Labels: 🟩 [OSS] open-source licence, 🟥 [No licence] no licence, 🟧 [Main
 
 ## Soft PLCs and runtimes
 
-- [IronPLC](https://github.com/ironplc/ironplc) — Rust SoftPLC project focused on an IEC 61131-3 parser, semantic analyser, and VS Code extension; runtime execution is still the missing piece. 🟩 [OSS]
+- [IronPLC](https://github.com/ironplc/ironplc) — Rust open-source IEC 61131-3 toolchain: compiler (ironplcc), bytecode VM runtime (ironplcvm), VS Code extension, and browser playground; ingests Structured Text, PLCopen XML, and TwinCAT 3 sources. Debugger and real I/O still to come. 🟩 [OSS]
 - [Gipop](https://github.com/andergisomon/Gipop) — Rust SoftPLC with Modbus and OPC UA modules plus EtherCAT via Ethercrab; early-stage, but a concrete protocol-first build. 🟩 [OSS]
 - [OCA release](https://github.com/mcdbcherry/oca_release) — C++20 software controller runtime targeting Linux/Windows/ARM with deterministic scan claims, VS Code workflow, and platform support including IOT2050 and Raspberry Pi; interesting architecture signal, but licensing is proprietary/non-commercial by default. 🟥 [No licence]
 - [OpenPLC Runtime v4](https://github.com/Autonomy-Logic/openplc-runtime) — MIT headless PLC runtime with a C/C++ core and Flask API; compiles uploaded IEC 61131-3 programs, runs deterministic scans, and exposes WebSocket debugging plus a plugin system, but only makes sense paired with the OpenPLC Editor. 🟩 [OSS]
